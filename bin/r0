@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "r0_indexer"
+
+R0Indexer::CLI.start(ARGV)
+
